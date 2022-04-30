@@ -1,0 +1,39 @@
+header{ 
+    background-color: #EA5C2B;
+    padding: 10px;
+    justify-content: space-between;    
+    color: black;
+    text-align: center;
+}
+nav{
+    background-color: #FF7F3F;
+    color: black;
+}
+section{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+article{
+    background-color: #F6D860;
+    grid-column:1/4 ;
+    
+}
+aside{
+    background-color:  #95CD41;
+    grid-column:4/5 ;
+}
+footer{
+    background-color: #45a5bb;
+    color: rgb(5, 4, 4);
+    padding: 15px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
